@@ -69,6 +69,37 @@ console.log(Object.entries(tinderUser));  // every keys and values forms into ar
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));   // checks if the property is available or not
 
 
+// Detructuring the objects 
+
+const anime = {
+    animeName: "NarutoShippuden",
+    leadCharacter: "Naruto",
+    favCharacter: "Naruto Uzumaki"
+}
+
+const {animeName: AN} = anime
+
+console.log(AN);
+
+
+// API's
+
+
+
+//{
+//   "name": "Subhajit",
+//    "courseName": "Js-Hindi",
+//    "price": "free"
+//}
+
+
+[
+    {},
+    {},
+    {}
+]
+
+
 
 
 
