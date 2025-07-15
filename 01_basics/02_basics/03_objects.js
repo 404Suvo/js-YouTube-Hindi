@@ -2,7 +2,7 @@
 
 const mySymbol =Symbol("key1")   // taking a symbol
 
-
+// this is not a singleton object
 const Jsuser = {
     name: "Subhajit",
     "full Name": "Subhajit Das",    // the key is string so method 2 is the only option to access the key
