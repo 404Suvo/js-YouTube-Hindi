@@ -74,3 +74,4 @@ function myNewArray(arrayobject){
     console.log(arrayobject[2]);
 }
 myNewArray(evenNumber)
+
