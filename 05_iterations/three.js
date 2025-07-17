@@ -32,11 +32,11 @@ for (const [key, value] of map){
 }
 
 const myObject = {
-    game1: 'NFS',
+    game1: 'NFS',  
     game2: 'FF'
 }
 
-// for (const [key, value] of myObject) {    // this is not working on objects
+// for (const [key, value] of myObject) {    // for of loop is not working on objects
 //     console.log(key, ':-', value);
     
 // }
