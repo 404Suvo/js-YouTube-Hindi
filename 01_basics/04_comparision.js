@@ -15,7 +15,7 @@ console.log(null == 0);
 console.log(null >= 0);
 */
 
-console.log("2" === 2); // it checks the datatype
+console.log("2" === 2); // it checks also the datatype and the value
 
 
 

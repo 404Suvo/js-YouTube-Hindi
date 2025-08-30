@@ -1,73 +1,73 @@
-let score = "subhajit"
+// let score = "subhajit"
 
-console.log(typeof score);
-console.log(typeof (score)); // method 2
+// console.log(typeof score);
+// console.log(typeof (score)); // method 2
 
-let valueInNumber = Number(score)
-console.log(typeof (valueInNumber));
-console.log(valueInNumber);
-
-
-// "33" => 33
-// "33Abc" => NaN = not a number 
-// true => 1, false => 0
-
-let isLoggedIN ="Subha"
-
-let booleanIsLoggedIn = Boolean(isLoggedIN)
-
-console.log(booleanIsLoggedIn);
+// let valueInNumber = Number(score)
+// console.log(typeof (valueInNumber));
+// console.log(valueInNumber);
 
 
-// 1 => true, 0 => false
-// "" => false, "subha" => true
+// // "33" => 33
+// // "33Abc" => NaN = not a number 
+// // true => 1, false => 0
 
-let someNumber = 33
+//  let isLoggedIN = 3
 
-let stringNumber = String(someNumber)
+//  let booleanIsLoggedIn = Boolean(isLoggedIN)
 
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//  console.log(booleanIsLoggedIn);
 
-// ******************************* Operation *********************************
 
-let value = 3
-let negValue = -value
-console.log(negValue);
+// // 1 => true, 0 => false
+// // "" => false, "subha" => true
 
-console.log(2+2);
-console.log(2-2);
-console.log(2/2);
-console.log(2**2);
-console.log(2%2);
-console.log(2/2);
-console.log(2*2);
+// let someNumber = 33
 
-let str1 = "hello"
-let str2 = "Subhajit"
-let str3 = str1 + str2
-console.log(str3);
+// let stringNumber = String(someNumber)
 
-console.log("1" + 2);
-console.log(1 + "2");
-console.log("1" + 2 + 2);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
-console.log(((3 + 4)* 5)% 3);  // always use paranthesis
+// // ******************************* Operation *********************************
 
-console.log(+true);
-console.log(+"");
+// let value = 3
+// let negValue = -value
+// console.log(negValue);
 
-let num1, num2, num3 
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2/2);
+// console.log(2**2);
+// console.log(2%2);
+// console.log(2/2);
+// console.log(2*2);
 
-num1 = num2 = num3 = 2 + 2  // not a good way
+// let str1 = "hello"
+// let str2 = "Subhajit"
+// let str3 = str1 + str2
+// console.log(str3);
 
-let gameCounter = 100
-++gameCounter;           // prefix operator
-gameCounter++;           // postfix operator
-console.log(gameCounter);
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
 
-// link to study
-//https://262.ecma-international.org/#sec-type-conversion
+// console.log(((3 + 4)* 5)% 3);  // always use paranthesis
+
+// console.log(+true);
+// console.log(+"");
+
+// let num1, num2, num3 
+
+// num1 = num2 = num3 = 2 + 2  // not a good way
+
+// let gameCounter = 100
+// ++gameCounter;           // prefix operator
+// gameCounter++;           // postfix operator
+// // console.log(gameCounter);
+
+// // link to study
+// //https://262.ecma-international.org/#sec-type-conversion
 
 
 
