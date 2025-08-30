@@ -35,5 +35,5 @@ console.log(typeof IsLoggedIn);
 console.log(typeof Religion);  // "Note": type of null is object
 
 
-
+// type of undefined is undefined
 
