@@ -8,7 +8,7 @@ console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 const gameName = new String('Subhajit Das-is-a-great-coder-and-a-man')
 
  console.log(gameName[0]);   // access thhe elements
- console.log(gameName.__proto__);    // tells the prototype
+ console.log(gameName.__proto__);    // through this prototype methode we can access all other methods of string but not needed we can directly use 
 
 
 console.log(gameName.length);   // tells the length of the string
