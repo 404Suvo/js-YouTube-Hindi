@@ -35,3 +35,4 @@
 // console.log(gameName.split('-'));
 // console.log(gameName.split('-', 5)); // it splits, where the given element is there and we can also set a limit upto how much to split
 
+
