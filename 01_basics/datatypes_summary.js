@@ -12,7 +12,7 @@
 // const id = Symbol('123')
 // const anotherId = Symbol('123')
 
-// console.log(id === anotherId);
+// console.log(id === anotherId);   // although the description is same both are unique
 
 // // const bigNumber = 3456543576654356754n
 
@@ -23,6 +23,7 @@
 // // Array, Objects, Functions
 
 // const heros = ["shaktiman", "naagraj", "doga"];
+
 // let myObj = {
 //     name: "hitesh",
 //     age: 22,
@@ -32,12 +33,15 @@
 //     console.log("Hello world");
 // }
 
+// myFunction  // this is the reference not the execution
+// myFunction()  // this is the execution 
+
 // console.log(typeof anotherId);
 
 // // https://262.ecma-international.org/5.1/#sec-11.4.3
 
-// console.log(typeof myFunction);
-// console.log(typeof heros);
+// console.log(typeof myFunction);  // this is the object function
+// console.log(typeof heros);  // Arrays are special type of object diff btw arr and obj: arr is ordered and obj is unordered 
 // console.log(typeof id);
 // console.log(typeof score);
 // console.log(typeof isLoggedIn);
@@ -75,6 +79,8 @@
 
 // console.log(userOne);
 // console.log(userTwo);
+
+
 
 
 
