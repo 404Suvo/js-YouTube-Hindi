@@ -24,13 +24,13 @@
 
 // // object
 
-// console.log(typeof Name);
+// console.log(typeof Name);  //string
 
-// console.log(typeof State);
+// console.log(typeof State);  //undefined
 
-// console.log(typeof Age);
+// console.log(typeof Age);   //Number
 
-// console.log(typeof IsLoggedIn);
+// console.log(typeof IsLoggedIn);   //Boolean
 
 // console.log(typeof Religion);  // "Note": type of null is object
 

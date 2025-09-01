@@ -70,6 +70,21 @@
 // //https://262.ecma-international.org/#sec-type-conversion
 
 
+//++++++++++++++++++++ MY OBSERVATION +++++++++++++++++++++++++++++++
+
+const number1 = Number(100)
+console.log(number1);     
+console.log(typeof number1);
+
+const number2 = new Number(100) 
+console.log(number2);  
+console.log(typeof number2); // this is a object AND the number is not the key it is number object and 100 is primitive datatype means number 
+console.log(typeof (number2.valueOf())); // this is a number
+
+ 
+
+
+
 
 
 
