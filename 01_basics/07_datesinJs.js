@@ -1,6 +1,7 @@
 // // Dates
 
 // let myDate = new Date()
+// console.log(myDate);
 // console.log(myDate.toString());
 // console.log(myDate.toDateString());
 // console.log(myDate.toISOString());
@@ -23,8 +24,7 @@
 
 // console.log(myTimestamp);
 // console.log(myCreatedDate.getTime());
-// console.log(Math.floor(Date.now()/1000));
-
+// console.log(Math.floor(Date.now()/100000));
 
 // let newDate = new Date()
 // console.log(newDate);
