@@ -5,7 +5,7 @@
 
 # Solution code
 
-## project 1 
+## Project 1 
 
 ```javascript
 const buttons = document.querySelectorAll('.button');
@@ -74,4 +74,14 @@ form.addEventListener('submit', function (e) {
     }
   }
 });
+```
+
+# Project 3
+``` javascript
+const clock = document.getElementById('clock');
+
+setInterval(function(){
+  const LocalDate = new Date()
+  clock.innerHTML = LocalDate.toLocaleTimeString()
+}, 1000);
 ```
