@@ -41,3 +41,37 @@ buttons.forEach(function (box){
   })
 });
 ```
+
+# Project 2 
+``` javascript 
+const form = document.querySelector('form');
+// this usecase will give you empty
+//const height = parseInt( document.querySelector('#height').value)
+
+form.addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const height = parseInt(document.querySelector('#height').value);
+  const weight = parseInt(document.querySelector('#weight').value);
+  const results = document.querySelector('#results');
+
+  if (height === '' || height < 0 || isNaN(height)) {
+    results.innerHTML = `please enter a valid height:- ${height}`;
+  }else if (weight === '' || weight < 0 || isNaN(weight)) {
+    results.innerHTML = `please enter a valid height:- ${weight}`;
+  }else {
+    const bmi = ((weight * 10**4) / (height)**2).toFixed(2)
+
+    //Show the results
+    results.innerHTML = `Result:- ${bmi}`
+
+    if(bmi < 18.6){
+      results.innerHTML = `Result:- ${bmi}<br>You Are Under Weight</br>`
+    }else if(bmi > 18.6 && bmi< 24.9 ){
+      results.innerHTML = `Result:- ${bmi}<br>Your Weight is Normal</br>`
+    }else if(bmi > 24.9){
+      results.innerHTML = `Result:- ${bmi}<br>You Are Over Weight</br>`
+    }
+  }
+});
+```

@@ -1,18 +1,18 @@
-// let score = "subhajit"
+let score = "3%"
 
 // console.log(typeof score);
 // console.log(typeof (score)); // method 2
 
-// let valueInNumber = Number(score)
-// console.log(typeof (valueInNumber));
-// console.log(valueInNumber);
+let valueInNumber = Number(score)
+console.log(typeof (valueInNumber));
+console.log(valueInNumber);
 
 
 // // "33" => 33
 // // "33Abc" => NaN = not a number 
 // // true => 1, false => 0
 
-//  let isLoggedIN = 3
+//  let isLoggedIN = 4
 
 //  let booleanIsLoggedIn = Boolean(isLoggedIN)
 
@@ -72,14 +72,14 @@
 
 //++++++++++++++++++++ MY OBSERVATION +++++++++++++++++++++++++++++++
 
-const number1 = Number(100)
-console.log(number1);     
-console.log(typeof number1);
+// const number1 = Number(100)
+// console.log(number1);     
+// console.log(typeof number1);
 
-const number2 = new Number(100) 
-console.log(number2);  
-console.log(typeof number2); // this is a object AND the number is not the key it is number object and 100 is primitive datatype means number 
-console.log(typeof (number2.valueOf())); // this is a number
+// const number2 = new Number(100) 
+// console.log(number2);  
+// console.log(typeof number2); // this is a object AND the number is not the key it is number object and 100 is primitive datatype means number 
+// console.log(typeof (number2.valueOf())); // this is a number
 
  
 
