@@ -24,5 +24,3 @@
 
 // console.table([accountId, accountEmail, accountPassword, accountCity, accountState]) // this gives it in a tabular structure
 
-
-
