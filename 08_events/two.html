@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const saySubhajit = function(){
+        console.log("Subhajit");
+        
+    }
+    const changeText = function(){
+    document.querySelector('h1').innerHTML = "Best JS Series"
+    }    
+    const changeME = setTimeout(changeText, 2000)   // setTimeout is a function, 2000 means after 2s it will execute
+
+    document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(changeME)
+    console.log("Stopped");
+    })
+</script>
+</html>
